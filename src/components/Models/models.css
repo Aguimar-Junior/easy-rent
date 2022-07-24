@@ -1,0 +1,65 @@
+.car__models{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 300px;
+    padding-top: 200px;
+    overflow: hidden;
+}
+
+.car{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 10px;
+   box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.25);
+   margin: 20px;
+}
+
+.car__model{
+    width: 250px;
+    height: 200px;
+    max-width: 100%;
+	transition: all 0.3s;
+}
+
+.car__model:hover{
+	transform: scale(1.1);
+    cursor: pointer;
+}
+
+input{
+    padding: 0.5rem;
+    margin: 1px;
+
+}
+
+input[type='date']{
+    width: 158px;
+}
+
+button{
+    padding: 0.5rem;
+    margin-top: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: all 0.3s;
+    background-color: #07801C;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+
+button:hover{
+    transform: scale(0.95);
+    background-color: #025911;
+}
+
+@media(max-width: 769px) {
+    .car{
+        width: 500px;
+    }
+}
