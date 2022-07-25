@@ -1,7 +1,8 @@
-import Header from '../Header';
+
 import jeep  from '../../img/jeep.png';
 import { Link } from 'react-router-dom';
 import './home.css'
+import Header from '../Header';
 
 function Home() {
   return (
